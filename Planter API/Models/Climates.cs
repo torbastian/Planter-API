@@ -13,6 +13,6 @@ namespace Planter_API.Models
         public string Climate { get; set; }
 
         //Relationships 
-        //public List<Plants> Plants { get; set;}
+        public List<Plants> Plants { get; set;}
     }
 }

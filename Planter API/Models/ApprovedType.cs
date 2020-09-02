@@ -16,10 +16,10 @@ namespace Planter_API.Models
         //Relationships (Til Senere)
 
         //PK ApprovedTypeID(ApprovedType) to FK_ApprovedTypeID(Plants)
-        //public List<Plant> Plants { get; set; }
+        public List<Plants> Plants { get; set; }
 
         //PK ApprovedTypeID(ApprovedType) to FK_ApprovedTypeID(Article)
-        //public List<Article> Article { get; set; }
+        public List<Article> Article { get; set; }
 
     }
 }
