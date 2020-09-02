@@ -15,7 +15,7 @@ namespace Planter_API.Models
         public string Password { get; set; }
 
         public Usertype UserType { get; set; }
-        [Foreignkey("UserType")]
+        [ForeignKey("UserType")]
         public int UserTypeID { get; set; }
 
         //Relationships (Til Senere)
