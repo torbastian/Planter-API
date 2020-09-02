@@ -9,5 +9,7 @@ namespace Planter_API.Models
     public class PlanterContext : DbContext
     {
         //DBsets
+
+        public DbSet<PlantType> PlantTypes { get; set; }
     }
 }
