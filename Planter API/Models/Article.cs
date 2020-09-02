@@ -25,11 +25,7 @@ namespace Planter_API.Models
         public int PlantID { get; set; }
 
         //Relationships (Til Senere)
-
         //PK ArticleID(Article) TO FK_ArticleID(Comments)
-
-        //PK PlantID(Plants) TO FK_PlantID(Article)
-
-        //PK ApprovedTypeID(ApprovedType) TO FK_ApprovedTypeID(Article)
+        public List<Comments> Comments { get; set; }
     }
 }
