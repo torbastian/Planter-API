@@ -13,7 +13,6 @@ namespace Planter_API.Models
         public string UType { get; set; }
 
         //Relationships (Til Senere)
-        public List<Users> users { get; set; }
 
         public List<Plants> Plants { get; set; }
     }
