@@ -17,6 +17,6 @@ namespace Planter_API.Models
         public DbSet<Plants> Plants { get; set; }
         public DbSet<PlantType> PlantTypes { get; set; }
         public DbSet<Users> Users { get; set; }
-        public DbSet<Usertype> Usertypes { get; set; }
+        public DbSet<UserType> Usertypes { get; set; }
     }
 }
