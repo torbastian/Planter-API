@@ -14,6 +14,6 @@ namespace Planter_API.Models
 
         //Relationships (Til Senere)
 
-        public List<Plants> Plants { get; set; }
+        public List<Users> Users { get; set; }
     }
 }
