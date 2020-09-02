@@ -20,14 +20,13 @@ namespace Planter_API.Models
         public int ApprovedTypeID { get; set; }
 
         //FK PlantID
-        //public Plants Plants { get; set; }
-        //[ForeignKey("PlantID")]
-        //public int PlantID { get; set; }
+        public Plants Plants { get; set; }
+        [ForeignKey("PlantID")]
+        public int PlantID { get; set; }
 
         //Relationships (Til Senere)
 
         //PK ArticleID(Article) TO FK_ArticleID(Comments)
-        //public List<Comment> Comments { get; set; }
 
         //PK PlantID(Plants) TO FK_PlantID(Article)
 
