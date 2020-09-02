@@ -14,11 +14,11 @@ namespace Planter_API.Models
         public string Username { get; set; }
         public string Password { get; set; }
 
-        public Usertype UserType { get; set; }
+        public UserType UserType { get; set; }
         [ForeignKey("UserType")]
         public int UserTypeID { get; set; }
 
         //Relationships (Til Senere)
-        //public List<UserType> Plants { get; set; }
+        public List<UserType> UserType { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Planter_API.Models
 {
-    public class Usertype
+    public class UserType
     {
         [Key]
         public int UserTypeID { get; set; }
@@ -14,5 +14,7 @@ namespace Planter_API.Models
 
         //Relationships (Til Senere)
         public List<Users> users { get; set; }
+
+        public List<Plants> Plants { get; set; }
     }
 }
